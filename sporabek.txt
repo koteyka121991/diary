@@ -1,0 +1,12 @@
+13.02
+1) Создание проекта
+*инициализируем проект
+nest g генерирует нужые файлы
+2) покдлючение к базе данный 
+npm install --save @nestjs/sequelize sequelize sequelize-typescript инициализация 
+npm install --save pg pg-hstore инициализация для пост грес
+npm install --save-dev @types/sequelize для сиквалайз
+npm i --save @nestjs/config инициализация
+npm i cross-env позволяет при запуске создавать системные переменые
+yarn run start:dev  запуск в режиме разработки
+3)секвалайзи модедб пользователя
