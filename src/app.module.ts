@@ -1,8 +1,10 @@
-import { User } from './user/user.model';
+import {  UsersModule } from './user/users.module';
+import { User } from './user/users.model';
 import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { SequelizeModule } from "@nestjs/sequelize";
 import { Exercise } from './exercises/exercises.model';
+import { ExercisesModule } from './exercises/exercises.module';
 
 @Module({
   controllers: [],
@@ -21,8 +23,9 @@ import { Exercise } from './exercises/exercises.model';
       models: [User, Exercise],
       autoLoadModels: true,
     }),
+    UsersModule, ExercisesModule
   ],
 
-  //   imports: [UserModule, ExercisesModule]
+ 
 })
 export class AppModule {}
