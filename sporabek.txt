@@ -34,3 +34,11 @@ npm i bcrypt модульдля шифрования паролей
 yarn add class-validator
 yarn add class-transformer
 14.globalPipes
+
+19.02
+15. Создание постов
+16. Работа с файлами раздача статистики
+npm i --save-dev @types/uuid
+npm install --save @nestjs/serve-static
+
+
